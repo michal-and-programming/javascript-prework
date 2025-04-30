@@ -31,8 +31,8 @@ function playGame(playerInput) {
       printMessage("Błąd wybierz ponownie");
     }*/
   }
-
-  let randomNumber = Math.floor(Math.random() * 3 + 1); //losowanie liczby od 0 do 0.999 mnozenie razy plus jeden i zaokrąglenie w dól daje nam losowanie od 1 do 3
+  const randomNumberTip = 3 + 1;
+  let randomNumber = Math.floor(Math.random() * randomNumberTip);
 
   console.log("Wylosowana liczba to: " + randomNumber);
 
