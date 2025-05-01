@@ -31,8 +31,8 @@ function playGame(playerInput) {
       printMessage("Błąd wybierz ponownie");
     }*/
   }
-  const randomNumberTip = 3 + 1;
-  let randomNumber = Math.floor(Math.random() * randomNumberTip);
+  const randomNumberTip = 3;
+  let randomNumber = Math.floor(Math.random() * randomNumberTip +1);
 
   console.log("Wylosowana liczba to: " + randomNumber);
 
